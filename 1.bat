@@ -2,10 +2,10 @@ git add -A -- .
 
 git commit -m 'update'
 
-git push github master
+git push -u github master -f
 
-git push coding master
+git push -u coding master -f
 
-git push gitee master
+git push -u gitee master -f
 
 pause
